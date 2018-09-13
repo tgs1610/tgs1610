@@ -7,13 +7,8 @@ using System.Web.Http;
 
 namespace TesteApi.Controllers
 {
-    public class HomeController : ApiController
+    public class LoginController : ApiController
     {
-
-        public object Get()
-        {
-            return new {id=1,nome="teste", login="teste2..." };
-        }
-
+        
     }
 }
