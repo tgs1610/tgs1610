@@ -12,7 +12,7 @@ namespace TesteApi.Controllers
 
         public object Get()
         {
-            return new {id=1,nome="teste" };
+            return new {id=1,nome="teste", login="teste2" };
         }
 
     }
